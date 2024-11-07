@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Interactivity</title>
+  </head>
+  <body>
+    <!-- Hover State Styling -->
+    <button
+      class="bg-black m-3 px-4 py-3 text-white rounded hover:bg-blue-400 hover:text-black"
+    >
+      Hover
+    </button>
+    <!-- Focus State Styling -->
+    <button
+      class="bg-black m-3 px-4 py-3 text-white rounded focus:bg-pink-500 focus:text-black"
+    >
+      Focus
+    </button>
+    <!-- Active State Styling -->
+    <button
+      class="bg-black m-3 px-4 py-3 text-white rounded active:bg-red-500 active:text-black"
+    >
+      Active
+    </button>
+    <!-- Styling based on parent state -->
+    <a
+      href="#"
+      class="group block p-6 mx-auto max-w-sm rounder text-black bg-white shadow-lg space-y-3 hover:bg-orange-400"
+    >
+      <h1 class="group-hover:text-white">Lorem ipsum dolor sit.</h1>
+      <h1 class="group-hover:text-white">Lorem ipsum dolor sit.</h1>
+    </a>
+    <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 1</li>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 2</li>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 3</li>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 4</li>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 5</li>
+      <li class="first:bg-black odd:bg-blue-500 even:bg-red-500">item 6</li>
+    </ul>
+
+    <!-- Appearance -->
+    <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+
+    <!-- Cursor -->
+    <button
+      class="bg-black m-3 px-4 py-3 text-white rounded active:bg-red-500 active:text-black cursor-wait"
+    >
+      Submit
+    </button>
+
+    <!-- Resize -->
+    <!-- Smooth Scroll Example -->
+
+    <a href="#item" class="bg-black mt-10 m-3 px-4 py-3 text-white rounded"
+      >navbar -> got to item</a
+    >
+
+    <!-- User Select -->
+    <p class="select-none mb-10 w-96">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos magni,
+      dolorem minima praesentium nemo consectetur perspiciatis alias
+      exercitationem. Temporibus quas delectus modi perferendis molestias
+      dolores facere, et autem voluptas numquam vero dolorem nesciunt quaerat!
+      Doloremque incidunt nisi suscipit in voluptatum hic maxime architecto
+      impedit corporis quaerat sunt rerum delectus, molestiae ducimus qui natus
+      magnam, soluta odit id. Veniam tempore exercitationem earum ipsam non
+      asperiores ad soluta, recusandae dolorem quos adipisci magni quasi? Rerum
+      cumque suscipit ad vel nam. Labore minus optio quam necessitatibus dolor
+      eveniet voluptas animi, omnis harum repudiandae doloribus, praesentium
+      eaque cumque quae vel. Quidem commodi placeat in?
+    </p>
+    <p id="item">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. A tempore
+      explicabo maxime nostrum velit asperiores consequatur eligendi odit quasi,
+      optio blanditiis iure quas fuga in corporis aliquam culpa ea! Et ipsum
+      voluptatem excepturi placeat ullam eos adipisci optio quia id. Alias
+      veniam saepe voluptatibus cum unde ea minima incidunt quo commodi
+      obcaecati illo, dolorem error est exercitationem nostrum, accusantium
+      molestiae sapiente at, sed hic non animi nisi modi dolores. Sequi
+      aspernatur quis quos quibusdam perspiciatis hic, quae expedita dolorem ab
+      dignissimos id natus blanditiis eaque soluta rem, doloribus quasi nisi? Ex
+      nisi ab eaque ea non nobis numquam dolore debitis.
+    </p>
+  </body>
+</html>
+
+<!-- Cursor
+  cursor-auto	          cursor: auto;
+  cursor-default	      cursor: default;
+  cursor-pointer	      cursor: pointer;
+  cursor-wait	          cursor: wait;
+  cursor-text	          cursor: text;
+  cursor-move	          cursor: move;
+  cursor-help	          cursor: help;
+  cursor-not-allowed	  cursor: not-allowed;
+  cursor-none	          cursor: none;
+  cursor-context-menu	  cursor: context-menu;
+  cursor-progress	      cursor: progress;
+  cursor-cell	          cursor: cell;
+  cursor-crosshair	    cursor: crosshair;
+  cursor-vertical-text	cursor: vertical-text;
+  cursor-alias	        cursor: alias;
+  cursor-copy	          cursor: copy;
+  cursor-no-drop	      cursor: no-drop;
+  cursor-grab	          cursor: grab;
+  cursor-grabbing	      cursor: grabbing;
+  cursor-all-scroll	    cursor: all-scroll;
+  cursor-col-resize	    cursor: col-resize;
+  cursor-row-resize	    cursor: row-resize;
+  cursor-n-resize	      cursor: n-resize;
+  cursor-e-resize	      cursor: e-resize;
+  cursor-s-resize	      cursor: s-resize;
+  cursor-w-resize	      cursor: w-resize;
+  cursor-ne-resize	    cursor: ne-resize;
+  cursor-nw-resize	    cursor: nw-resize;
+  cursor-se-resize	    cursor: se-resize;
+  cursor-sw-resize	    cursor: sw-resize;
+  cursor-ew-resize	    cursor: ew-resize;
+  cursor-ns-resize	    cursor: ns-resize;
+  cursor-nesw-resize	  cursor: nesw-resize;
+  cursor-nwse-resize	  cursor: nwse-resize;
+  cursor-zoom-in	      cursor: zoom-in;
+  cursor-zoom-out	      cursor: zoom-out;
+-->
