@@ -17,7 +17,7 @@
       <div class="p-10 border border-pink-300 bg-pink-100">04</div>
     </div>
 
-    <div class="flex items-start gap-2 h-72 w-full bg-gray-300 mt-20">
+    <div class="flex items-start h-72 w-full bg-gray-300 mt-20">
       <div class="p-10 border border-pink-300 bg-pink-100">01</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
@@ -25,9 +25,7 @@
       <div class="p-10 border border-pink-300 bg-pink-100">04</div>
     </div>
 
-    <div
-      class="flex flex-col items-start gap-2 h-72 w-full bg-gray-300 mt-20 mb-20"
-    >
+    <div class="flex flex-col items-start h-72 w-full bg-gray-300 mt-20 mb-20">
       <div class="p-10 border border-pink-300 bg-pink-100">01</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
@@ -36,14 +34,16 @@
     </div>
 
     <div class="flex justify-between items-end h-72 w-full bg-gray-300 mt-96">
-      <div class="p-10 border border-pink-300 bg-pink-100">01</div>
+      <div class="order-5 p-10 border-pink-300 bg-pink-100">01</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
       <div class="p-10 border border-pink-300 bg-pink-100">03</div>
-      <div class="p-10 border border-pink-300 bg-pink-100">04</div>
+      <div class="order-1 p-10 border border-pink-300 bg-pink-100">04</div>
     </div>
 
-    <div class="flex flex-wrap items-center h-72 w-full bg-gray-300 mt-20">
+    <div
+      class="flex flex-wrap justify-around items-center h-72 w-full bg-gray-300 mt-20"
+    >
       <div class="p-10 border border-pink-300 bg-pink-100">01</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
       <div class="p-10 border border-pink-300 bg-pink-100">02</div>
@@ -56,8 +56,35 @@
     </div>
 
     <!-- Flex Column, Gap and Order -->
-
+    <div
+      class="flex flex-col gap-2 items-end h-72 w-full bg-gray-300 mt-96 mb-10"
+    >
+      <div class="order-last p-10 border border-pink-300 bg-pink-100">01</div>
+      <div class="order-2 p-10 border border-pink-300 bg-pink-100">02</div>
+      <div class="p-10 border border-pink-300 bg-pink-100">03</div>
+      <div class="p-10 border border-pink-300 bg-pink-100">04</div>
+      <div class="order-first p-10 border border-pink-300 bg-pink-100">05</div>
+    </div>
     <!-- Grow and shrink -->
+    <div class="flex w-full bg-gray-300 mt-96 mb-20">
+      <div class="flex-initial w-64 p-10 border border-pink-300 bg-pink-100">
+        02
+      </div>
+      <div class="flex-none w-64 p-10 border border-pink-300 bg-pink-100">
+        01
+      </div>
+      <div class="flex-auto w-64 p-10 border border-pink-300 bg-pink-100">
+        02
+      </div>
+      <div class="flex-1 w-64 p-10 border border-pink-300 bg-pink-100">03</div>
+      <div class="p-10 border border-pink-300 bg-pink-100">04</div>
+    </div>
+
+    <div class="flex h-64 text-center">
+      <div class="flex-1 bg-red-300 border">hey</div>
+      <div class="flex-1 bg-red-300 border">hey</div>
+      <div class="flex-1 bg-red-300 border">hey</div>
+    </div>
   </body>
 </html>
 
